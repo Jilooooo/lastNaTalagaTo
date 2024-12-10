@@ -122,7 +122,7 @@ $grouped_orders = getRecentOrdersGrouped($user_id);
 
         /* Main Content */
         main {
-            margin-top: 5.5rem;
+            margin-top: 0;
             margin-left: 0;
             padding: 1rem;
             flex: 1;
@@ -134,18 +134,14 @@ $grouped_orders = getRecentOrdersGrouped($user_id);
             margin-left: 16rem;
         }
 
-        /* Footer */
-        footer {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background-color: #2f855a;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            z-index: 30;
-        }
+    /* Footer */
+    footer {
+        background-color: #2f855a;
+        color: white;
+        text-align: center;
+        padding: 1rem 0;
+        z-index: 30;
+    }
     </style>
 </head>
 <body class="bg-gray-100 font-sans">
@@ -379,4 +375,3 @@ $grouped_orders = getRecentOrdersGrouped($user_id);
     </script>
 </body>
 </html>
-
